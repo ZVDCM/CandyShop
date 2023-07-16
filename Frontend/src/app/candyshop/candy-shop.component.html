@@ -1,0 +1,11 @@
+<header class="h-[10%] flex justify-start items-center">
+	<h1 class="text-[2rem] tracking-widest font-extrabold cursor-pointer" routerLink="/shop">
+		<span [ngStyle]="{ color: 'var(--primary-color)' }"> CANDY </span>
+		SHOP
+	</h1>
+</header>
+<main class="h-[75%]">
+	<article class="h-full w-full">
+		<router-outlet />
+	</article>
+</main>
